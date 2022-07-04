@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Info</title>
+  <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <h1>Fit For Fun Fitness Club</h1>
+    <nav>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="active" href="classes.html">Classes</a></li>
+        <li><a class="active" href="info.html">Form</a></li>
+      </ul>
+    </nav>
+    <h2>Application Form</h2>
+      <div class="form">
+      </div>
+        <form method="get" action="thankyou.html">
+          <fieldset>
+            <legend>Customer Information</legend>
+            <label for="fname">
+              First Name:
+               <input autofocus type="text" name="fname" id="fname" required placeholder="First Name"/>
+            </label>
+            <label for="lname">
+              Last Name:
+               <input type="text" name="lname" id="lname" required placeholder="Last Name"/>
+            </label>
+            <label for="email">
+              Email:
+                <input type="email" name="email" id="email" required placeholder="email"/>
+            </label>
+            <label for="tel">
+              Phone:
+                <input type="tel" name="tel" id="tel" required placeholder="phone number"/>
+            </label>
+
+            <label for="choice">Best Way to Reach:</label>
+            <select name="choicetype" id="choice">
+              <option value="choice1">Email</option>
+              <option value="choice2">Phone</option>
+            </select>
+            </fieldset>
+
+
+
+    <div class="form2">
+    </div>
+        <fieldset>
+          <legend>Select All Interest</legend>
+          <input name="class" id="classes" value="yes" type="checkbox" />
+          <label for="classes">Cross Training</label>
+          <input name="class1" id="classes1" value="yes" type="checkbox"/>
+          <label for="classes1">Sprint</label>
+          <input name="class2" id="classes2" value="yes" type="checkbox"/>
+          <label for="classes2">Spin</label>
+          <input name="class3" id="classes3" value="yes" type="checkbox"/>
+          <label for="classes3">BodyPump</label>
+          <input name="class4" id="classes4" value="yes" type="checkbox"/>
+          <label for="classes4">BodyCombat</label>
+          <input name="class5" id="classes5" value="yes" type="checkbox"/>
+          <label for="classes5">Step Interval</label>
+          <input name="class6" id="classes6" value="yes" type="checkbox"/>
+          <label for="classes6">Advanced Training</label>
+          <input name="class7" id="classes7" value="yes" type="checkbox"/>
+          <label for="classes7">MixxedFIT</label>
+        </fieldset>
+
+    <div class="form3">
+        <fieldset>
+          <legend>Preferred Time</legend>
+          <input type="radio" id="time" name="fav_am" value="AM">
+          <label for="time">am</label><br>
+          <input type="radio" id="pm" name="fav_pm" value="PM">
+          <label for="pm">pm</label><br>
+        </fieldset>
+    </div>
+
+    <div id="buttons">
+          <input class="submit" type="submit" value="submit"/>
+    </div>
+        </form>
+
+
+</header>
+
+<footer>
+      <p> &copy; Fit For Fun Fitness Club</p>
+</footer>
+</body>
+</html>
